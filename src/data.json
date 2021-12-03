@@ -1,0 +1,108 @@
+{
+  "container": {
+    "height": 500,
+    "width": 800
+  },
+  "blocks": [
+    {
+      "top": 287,
+      "left": 351.5,
+      "componentKey": "select",
+      "adjustPosition": false,
+      "focus": false,
+      "zIndex": 0,
+      "width": 193,
+      "height": 40,
+      "hasResize": false,
+      "props": {
+        "options": [
+          {
+            "label": "蛋糕",
+            "value": "dangao",
+            "comments": "333"
+          },
+          {
+            "label": "雪饼",
+            "value": "xuebing",
+            "comments": "666"
+          }
+        ]
+      },
+      "model": {
+        "default": "food"
+      },
+      "slotName": "mySelect"
+    },
+    {
+      "top": 164,
+      "left": 130,
+      "componentKey": "text",
+      "adjustPosition": false,
+      "focus": false,
+      "zIndex": 0,
+      "width": 64,
+      "height": 22,
+      "hasResize": false,
+      "props": {},
+      "model": {}
+    },
+    {
+      "top": 196,
+      "left": 281.5,
+      "componentKey": "button",
+      "adjustPosition": false,
+      "focus": false,
+      "zIndex": 0,
+      "width": 70,
+      "height": 40,
+      "hasResize": false,
+      "props": {},
+      "model": {},
+      "slotName": "subBtn"
+    },
+    {
+      "top": 287,
+      "left": 550.5,
+      "componentKey": "select",
+      "adjustPosition": false,
+      "focus": false,
+      "zIndex": 0,
+      "width": 193,
+      "height": 40,
+      "hasResize": false,
+      "props": {
+        "options": [
+          {
+            "label": "经销商",
+            "value": "daeler",
+            "comments": "111"
+          },
+          {
+            "label": "门店",
+            "value": "store",
+            "comments": "222"
+          }
+        ]
+      },
+      "model": {
+        "default": "acctType"
+      }
+    },
+    {
+      "top": 96,
+      "left": 366.5,
+      "componentKey": "number-range",
+      "adjustPosition": false,
+      "focus": false,
+      "zIndex": 0,
+      "width": 225,
+      "height": 40,
+      "hasResize": false,
+      "props": {},
+      "model": {
+        "start": "minLevel",
+        "end": "maxLevel"
+      }
+    }
+  ]
+}
